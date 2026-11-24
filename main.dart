@@ -22,5 +22,6 @@ void main(){
   var animal3 = Eagle(name: 'Burung Elang', jenisMakanan: 'Karnivora', jenisParuh: 'Kuat', kecepatanTerbang: 50);
   animal3.tampilkanInfo();
   animal3.ubahInfo(ubahNama: 'Burung Elang Raja', ubahMakan: 'Karnivora', ubahParuh: 'Kuat', ubahKecepatan: 60);
+  print('----Ubah Info Hewan----');
   animal3.tampilkanInfo();
 }
