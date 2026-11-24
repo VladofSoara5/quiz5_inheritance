@@ -7,7 +7,7 @@ class Bird extends Animal{
 
   @override
   ubahInfo({ubahNama, ubahMakan, ubahParuh}) {
-    jenisParuh = ubahParuh();
+    jenisParuh = ubahParuh;
     // TODO: implement ubahInfo
     return super.ubahInfo(ubahNama: ubahNama, ubahMakan: ubahMakan);
   }
